@@ -12,7 +12,6 @@
 
 /* Begin PBXFileReference section */
 		08E0C4181E9E4A450072DFF6 /* RNAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		08E0C42C1E9E4A450072DFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08E0C4321E9E4BCD0072DFF6 /* RNAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAlertView.h; sourceTree = "<group>"; };
 		08E0C4331E9E4BCD0072DFF6 /* RNAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,7 +46,6 @@
 		08E0C41A1E9E4A450072DFF6 /* RNAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				08E0C42C1E9E4A450072DFF6 /* Info.plist */,
 				08E0C4321E9E4BCD0072DFF6 /* RNAlertView.h */,
 				08E0C4331E9E4BCD0072DFF6 /* RNAlertView.m */,
 			);
@@ -265,6 +263,7 @@
 				08E0C4311E9E4A450072DFF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
