@@ -1,6 +1,6 @@
 import { NativeModules, processColor } from 'react-native';
 
-const { ReactNativeAlertView } = NativeModules;
+const { RNAlertView } = NativeModules;
 
 export default {
   /*
@@ -31,6 +31,6 @@ export default {
         ...rest
       };
     });
-    ReactNativeAlertView.show(config, callback);
+    RNAlertView.show(config, callback);
   }
 };

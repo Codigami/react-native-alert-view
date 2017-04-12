@@ -1,6 +1,6 @@
 {
   "name": "react-native-alert-view",
-  "version": "0.1.0-alpha.9",
+  "version": "0.1.0-alpha.10",
   "description": "An alert view wrapper built on top of native components for iOS and Android with customizable controls for making extremely unique alerts and action sheets.",
   "main": "index.js",
   "scripts": {
