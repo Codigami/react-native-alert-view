@@ -2,7 +2,7 @@
 
 React Native Alert View is a react native wrapper for [CFAlertViewController](https://github.com/Codigami/CFAlertViewController) iOS component that we use at [Crowdfire](https://crowdfireapp.com)
 
-This library is current supports iOS but android support is coming very soon.
+This library currently supports only iOS but android support is coming very soon.
 
 
 # Installation
