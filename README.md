@@ -53,7 +53,7 @@ ReactNativeAlertView.show(options, callback)
 | Option          | Type   | Allowed values                                                                       | Default     | Platform support                                                             |
 |-----------------|--------|--------------------------------------------------------------------------------------|-------------|------------------------------------------------------------------------------|
 | title           | string | Any string                                                                           | `''`        | Supported on iOS/Android                                                     |
-| style           | string | One of `default`/`cancel`/`desctructive`                                             | `default`   | iOS: Supports all values Android: Defaults to `default`. Option is ignored   |
+| style           | string | One of `default`/`cancel`/`destructive`                                             | `default`   | iOS: Supports all values Android: Defaults to `default`. Option is ignored   |
 | alignment       | string | One of `left`/`right`/`center`/`justified`                                           | `justified` | iOS: Supports all values Android: Defaults to `justified`. Option is ignored |
 | backgroundColor | string | Any color supported [here](https://facebook.github.io/react-native/docs/colors.html) | `white`     | Supported on iOS/Android                                                     |
 | textColor       | string | Any color supported [here](https://facebook.github.io/react-native/docs/colors.html) | `white`     | Supported on iOS/Android                                                     |
