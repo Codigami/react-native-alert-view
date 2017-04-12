@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "React/RCTBridgeModule.h"
 
+@import CFAlertViewController
+
 @interface RNAlertView : NSObject <RCTBridgeModule>
 
 @end

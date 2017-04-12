@@ -7,7 +7,6 @@
 //
 
 #import "RNAlertView.h"
-#import "UIColor+HexString.h"
 #import <React/RCTConvert.h>
 
 @implementation RNAlertView
