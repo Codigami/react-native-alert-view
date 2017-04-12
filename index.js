@@ -1,5 +1,4 @@
-import { processColor } from 'react-native';
-import NativeModules from 'NativeModules';
+import { NativeModules, processColor } from 'react-native';
 
 const { ReactNativeAlertView } = NativeModules;
 
