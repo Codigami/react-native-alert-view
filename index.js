@@ -31,6 +31,6 @@ export default {
         ...rest
       };
     });
-    ReactNativeUIAlert.show(config, callback);
+    ReactNativeAlertView.show(config, callback);
   }
 };
