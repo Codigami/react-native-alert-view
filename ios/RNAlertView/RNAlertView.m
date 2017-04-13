@@ -9,6 +9,8 @@
 #import "RNAlertView.h"
 #import <React/RCTConvert.h>
 
+@import CFAlertViewController;
+
 @implementation RNAlertView
 
 // This RCT (React) "macro" exposes the current module to JavaScript
