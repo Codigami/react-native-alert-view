@@ -92,14 +92,14 @@ RCT_EXPORT_METHOD(show:(NSDictionary *)options callback:(RCTResponseSenderBlock)
         [actionSheet addAction:action];
     }
     
-    UIViewController *rootViewController = [RNAlertView topViewControllerWithRootViewController:[[[UIApplication sharedApplication] delegate] window].rootViewController];
+    UIViewController *rootViewController = [self topViewControllerWithRootViewController:[[[UIApplication sharedApplication] delegate] window].rootViewController];
 
     dispatch_async(dispatch_get_main_queue(), ^{
         [rootViewController presentViewController:actionSheet animated:YES completion:nil];
     });
 }
 
-+ (UIViewController *)topViewControllerWithRootViewController:(UIViewController*)rootViewController {
+- (UIViewController *)topViewControllerWithRootViewController:(UIViewController*)rootViewController {
     if ([rootViewController isKindOfClass:[UITabBarController class]]) {
         UITabBarController* tabBarController = (UITabBarController*)rootViewController;
         return [self topViewControllerWithRootViewController:tabBarController.selectedViewController];
